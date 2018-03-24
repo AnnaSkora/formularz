@@ -8,23 +8,26 @@
 
 <body>
 
-    <form action="https://formspree.io/zija@op.pl"
-      method="POST">
+    <form action="https://formspree.io/zija@op.pl" method="POST">
+<!--
+       
+       (label+input)*4+(label+textarea)+input:submit
+-->
         <label for="name">Imię</label>
-        <input type="text" name="imie" id="name">
+        <input type="text" id="name" name="name">
         <br>
         <label for="nazwisko">Nazwisko</label>
-        <input type="text" name="nazwisko" id="nazwisko">
+        <input type="text" id="nazwisko" name="nazwisko">
         <br>
         <label for="email">Email</label>
-        <input type="email" name="email" id="email">
+        <input type="email" id="email" name="email">
         <br>
         <label for="tel">Telefon</label>
-        <input type="tel" name="tel" id="tel">
+        <input type="tel" id="tel" name="tel">
         <br>
         <label for="message">Wiadomość</label>
         <textarea name="wiadomosc" id="message" cols="30" rows="10"></textarea>
-        <input type="submit">
+        <input type="submit" value="wyślij">
 
     </form>
 
